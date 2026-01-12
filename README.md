@@ -2,7 +2,7 @@
 
 A full-stack social media web application built with **Next.js 14 (App Router)** and **MongoDB**, featuring secure authentication, user interaction, and real-time UI updates.
 
----
+
 ## 📸 Preview  
 
 <img width="1470" height="802" alt="image" src="https://github.com/user-attachments/assets/862a123f-d378-45e5-8eb3-c76bbe7e15aa" />
