@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Social Media App (Next.js + MongoDB)
 
-## Getting Started
+A full-stack social media web application built with **Next.js 14 (App Router)** and **MongoDB**, featuring secure authentication, user interaction, and real-time UI updates.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔐 Authentication
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- User **Register**
+- User **Login**
+- Password hashing using **bcryptjs**
+- Token-based authentication using **JWT**
+- Token stored on client via `localStorage`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 📝 Posts
 
-To learn more about Next.js, take a look at the following resources:
+- Create new posts
+- All posts visible on **Feed**
+- Authenticated users can interact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔔 Notifications (Toasts)
 
-## Deploy on Vercel
+- Beautiful toasts using **react-hot-toast**
+- Shown on top-right for:
+  - Login success
+  - Register success
+  - Post creation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🧭 Navigation
+
+- Responsive Navbar
+- Shows Login/Register or Logout based on user’s token
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **Next.js 14 (App Router)**
+- **React Hot Toast** (for notifications)
+- **Tailwind CSS** (UI styling)
+- Client-side state using React Hooks
+
+### Backend
+
+- **Next.js API Routes**
+- **MongoDB Atlas**
+- **Mongoose ORM**
+- **JWT Authentication**
+- **bcryptjs** for password hashing
+
+---
+
+---
+
+## Created with ❤️ by Rohit Jadhav
+
+Made with passion, caffeine, and lots of debugging 😄  
+If you want to connect or collaborate, feel free to contact me:
+
+📩 Email: **rohitbjadhav03@gmail.com**
+
+---
