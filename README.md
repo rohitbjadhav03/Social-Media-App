@@ -63,8 +63,6 @@ A full-stack social media web application built with **Next.js 14 (App Router)**
 
 ---
 
----
-
 ## Created with ❤️ by Rohit Jadhav
 
 Made with passion, caffeine, and lots of debugging 😄  
