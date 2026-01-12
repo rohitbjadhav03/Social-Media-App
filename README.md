@@ -39,8 +39,6 @@ A full-stack social media web application built with **Next.js 14 (App Router)**
 - Responsive Navbar
 - Shows Login/Register or Logout based on user’s token
 
----
-
 ## 🛠️ Tech Stack
 
 ### Frontend
