@@ -73,7 +73,7 @@ const page = () => {
             />
           </div>
 
-          <button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-lg transition">
+          <button className="w-full cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-lg transition">
             Register
           </button>
         </form>

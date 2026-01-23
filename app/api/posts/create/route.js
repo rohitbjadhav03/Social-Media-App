@@ -7,7 +7,6 @@ export async function POST(req) {
     await connectDB();
 
     const user = await verifyToken(req);
-    console.log("HEADER TOKEN:", req.headers.get("authorization"));
 
     if (!user) {
       return Response.json({ message: "Unauthorized" }, { status: 401 });
@@ -15,17 +14,12 @@ export async function POST(req) {
 
     const { content } = await req.json();
 
-    if (!content) {
-      return Response.json({ message: "Content required" }, { status: 400 });
-    }
-
     const newPost = await Post.create({
-      user: user.id,  // <-- FIX
+      user: user.id, // ✅ token se id aa rahi hai
       content,
     });
 
     return Response.json({ success: true, post: newPost }, { status: 201 });
-
   } catch (err) {
     console.log("POST ERROR:", err);
     return Response.json({ message: "Server error" }, { status: 500 });
