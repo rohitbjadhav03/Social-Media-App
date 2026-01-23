@@ -5,8 +5,9 @@ A full-stack social media web application built with **Next.js 14 (App Router)**
 
 ## 📸 Preview  
 
-<img width="1470" height="802" alt="image" src="https://github.com/user-attachments/assets/862a123f-d378-45e5-8eb3-c76bbe7e15aa" />
-<img width="1470" height="801" alt="image" src="https://github.com/user-attachments/assets/315c97e7-2943-4e2d-ab77-c1c0062b3985" />
+<img width="1469" height="795" alt="image" src="https://github.com/user-attachments/assets/c5715d7c-9541-4961-8b98-ced059eb77f5" />
+<img width="1470" height="799" alt="image" src="https://github.com/user-attachments/assets/628b8e1f-7e98-48ca-b4b5-c091b619c202" />
+
 
 ---
 ## 🚀 Features
@@ -63,7 +64,7 @@ A full-stack social media web application built with **Next.js 14 (App Router)**
 
 ---
 
-## Created with ❤️ by Rohit Jadhav
+## Created with ❤️ by Rohit
 
 Made with passion, caffeine, and lots of debugging 😄  
 If you want to connect or collaborate, feel free to contact me:
